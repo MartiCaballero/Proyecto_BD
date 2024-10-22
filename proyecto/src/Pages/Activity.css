@@ -1,0 +1,68 @@
+.activity-container {
+    padding: 20px;
+    text-align: center;
+    background-color: #f0f5f9;
+  }
+  
+  .activity-image {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px 0;
+  }
+  
+  .buttons-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #1d4f73;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #527a99;
+  }
+  
+  textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: "Montserrat", sans-serif;
+  }
+
+  .confirmar-button:hover {
+    background-color: #5b8a6c;
+  }
+
+  .radio-container {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .radio-item {
+    display: flex; 
+    align-items: center;
+  }
+  
+  .radio-item input[type="radio"] {
+    margin-right: 10px;
+    margin-left: 10px;  
+  }
+
+  .radio-item label {
+    flex-grow: 1;
+    white-space: nowrap;    
+    margin-right: 30%;
+  }
