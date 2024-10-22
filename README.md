@@ -1,2 +1,2 @@
-# Proyecyo_BD
+# Proyecto_BD
 Proyecto Bases de Datos
